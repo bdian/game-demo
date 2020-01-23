@@ -19,12 +19,6 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-
-- task: AzureAppServiceSettings@1
-  inputs:
-    azureSubscription: 'game-demo-service-connection'
-    appName: 'paul-game-demo'
-    resourceGroupName: 'paul-game-demo-rg'
     
 - task: ArchiveFiles@2
   inputs:
