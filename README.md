@@ -1,5 +1,4 @@
-[![Build Status](https://rocketlolly.vsrm.visualstudio.com/_apis/public/Release/badge/f7a356b7-4451-481d-9a5b-19ba1159d842/1/1)]
-(https://rocketlolly.vsrm.visualstudio.com/_apis/public/Release/badge/f7a356b7-4451-481d-9a5b-19ba1159d842/1/1)
+![Build Status](https://rocketlolly.vsrm.visualstudio.com/_apis/public/Release/badge/f7a356b7-4451-481d-9a5b-19ba1159d842/1/1)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
