@@ -25,12 +25,10 @@ steps:
     npm run build
   displayName: 'npm install and build'
     
-
-
 ## Copy the client to the staging directory
 - task: CopyFiles@2
   inputs:
-    sourceFolder: '$(buildOutputFolder)' 
+    sourceFolder: '/home/vsts/work/1/s/dist' #For some reason, I think we need to hard-code this.
     contents: '**/*' 
     targetFolder: '$(Build.ArtifactStagingDirectory)'
     cleanTargetFolder: true
