@@ -22,7 +22,7 @@ steps:
 
 - task: AzureAppServiceSettings@1
   inputs:
-    azureSubscription: 'Free Trial (87465fc9-f63a-487b-b342-59d90074027a)'
+    azureSubscription: 'game-demo-service-connection'
     appName: 'paul-game-demo'
     resourceGroupName: 'paul-game-demo-rg'
     
@@ -36,7 +36,7 @@ steps:
     
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Free Trial(87465fc9-f63a-487b-b342-59d90074027a)'
+    azureSubscription: 'game-demo-service-connection'
     appType: 'webAppLinux'
     appName: 'paul-game-demo'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
