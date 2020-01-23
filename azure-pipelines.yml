@@ -20,6 +20,12 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
+- task: AzureAppServiceSettings@1
+  inputs:
+    azureSubscription: 'Free Trial (87465fc9-f63a-487b-b342-59d90074027a)'
+    appName: 'paul-game-demo'
+    resourceGroupName: 'paul-game-demo-rg'
+    
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(Build.BinariesDirectory)'
